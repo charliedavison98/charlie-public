@@ -5,6 +5,10 @@ Preview of personal projects
 
 Summarising PDF's: Using Google's Gen AI tools, summarise a collection of PDFs which in this case are slides from a conference.
 
+`Jerry`
+
+Using [Rasa](https://rasa.com/) to explore how to create a chatbot/personal assistant.
+
 `Sports` 
 
 Using Betfair's free API is it possible to identify low risk markets in sports games that would make a net profit.
