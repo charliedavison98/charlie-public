@@ -1,0 +1,158 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - I'm good thanks
+    - I'm well thank you
+    - Not bad at all
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: out_of_scope
+  examples: |
+   - What is the weather like?
+   - Who is the president of the US?
+   - When will it rain?
+   - What's for dinner?
+
+- intent: question_capability
+  examples: |
+   - What do you know?
+   - What can you do?
+   - show me something cool
+
+- intent: return_greeting
+  examples: |
+   - How are you?
+   - how are you today?
+   - how are you feeling?
+   - do you have feelings?
+   - what's your mood?
+   - are you ok?
+   - are you well?
+
+- intent: question_response
+  examples: |
+   - Why not?
+   - I don't undertsand
+   - why
+   - how come
+
+- intent: give_name
+  examples: |
+   - My name is john
+   - im called sam
+   - you can call me eric
+   - i am called rosie
+   - People call me dave
+   - call me Jemima
+
+- intent: repeat_name
+  examples: |
+   - What is my name?
+   - do you know my name?
+   - tell me my name
+   - repeat my name
+   - whats my name again
+   - can you remember my name
+
+- intent: just_name
+  examples: |
+   - jack
+   - jill
+   - bob
+   - sam
+   - harry
+   - lisa
+   - grace
+
+- intent: tell_name
+  examples: |
+   - do you want to know my name?
+   - i want to tell you my name
+   - shall i tell you my name

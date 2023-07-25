@@ -1,0 +1,48 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: return the how are you
+  steps:
+  - intent: return_greeting
+  - action: utter_return_greeting
+  - intent: question_response
+  - action: utter_explain_feelings
+
+- story: name path
+  steps:
+  - or:
+    - intent: give_name
+    - intent: tell_name
+  - action: utter_ask_name
+  - intent: just_name
+  - action: action_receive_name
+  - intent: repeat_name
+  - action: action_say_name
