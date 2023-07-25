@@ -1,0 +1,66 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - out_of_scope
+  - question_capability
+  - return_greeting
+  - question_response
+  - give_name
+  - repeat_name
+  - just_name
+  - tell_name
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_out_of_scope:
+  - text: "Sorry, I don't know that"
+
+  utter_capabilities:
+  - text: |
+          I can...
+          - Ask you how you're feeling
+          - Cheer you up when you're sad
+  
+  utter_return_greeting:
+  - text: "That's very kind of you to ask but I don't feel feelings"
+
+  utter_explain_feelings:
+  - text: "I am an AI powered chatbot that you created, I was built to help not feel"
+
+  utter_ask_name:
+  - text: "What is your name?"
+
+actions:
+- action_receive_name
+- action_say_name
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
