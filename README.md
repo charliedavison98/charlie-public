@@ -3,7 +3,7 @@ Preview of personal projects
 
 `Gen AI`
 
-**Summarising PDF's:** Using Google's Gen AI tools, summarise a collection of PDFs which in this case are slides from a conference.
+Summarising PDF's: Using Google's Gen AI tools, summarise a collection of PDFs which in this case are slides from a conference.
 
 `Sports` 
 
