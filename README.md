@@ -11,5 +11,5 @@ Using [Rasa](https://rasa.com/) to explore how to create a chatbot/personal assi
 
 `Sports` 
 
-Using Betfair's free API is it possible to identify low risk markets in sports games that would make a net profit.
+Using Betfair's free API to identify low risk markets in sports games that would make a net profit.
 **Update:** Using market odds alone this is not possible, next step create a model to identify low risk bets.
